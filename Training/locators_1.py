@@ -16,7 +16,7 @@ driver.get(site_url + "/locators.html")
 
 time.sleep(5)
 driver.find_element_by_id("cancel_link").click() # Link
-time.sleep(5)
+time.sleep(10)
 driver.find_element_by_id("submit_btn").click()  # Button
 #driver.find_element_by_id("username").send_keys("agileway") # Textfield
 #driver.find_element_by_id("alert_div").text    # HTML Div element
